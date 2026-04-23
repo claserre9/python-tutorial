@@ -1,0 +1,17 @@
+# TODO : compléter selon le cahier des charges.
+# Utilisez le pyproject.toml de la solution comme référence une fois votre
+# propre version tentée.
+
+[project]
+name = "api-taches"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    # TODO
+]
+
+# TODO : [project.optional-dependencies] dev
+# TODO : [project.scripts] api-taches = ...
+# TODO : [build-system]
+# TODO : [tool.hatch.build.targets.wheel]
+# TODO : [tool.mypy], [tool.ruff], [tool.pytest.ini_options]

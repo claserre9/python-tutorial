@@ -372,4 +372,4 @@ Un paquet Python distribué existe sous deux formes :
 
 ---
 
-Félicitations, vous êtes arrivé au bout du parcours. Les **annexes** ([A-D](../../annexes/)) approfondissent des sujets transversaux utiles : debug, regex, DB, sécurité.
+Félicitations, vous êtes arrivé au bout du parcours. Les annexes approfondissent des sujets transversaux utiles : [A. Debug](../../annexes/A_debug.md), [B. Regex](../../annexes/B_regex.md), [C. Bases de données](../../annexes/C_bases_donnees.md), [D. Sécurité](../../annexes/D_securite.md).

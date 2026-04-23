@@ -1,0 +1,98 @@
+site_name: Tutoriel Python
+site_description: Du débutant à l'expert — 3 niveaux, 16 chapitres, 3 projets fil rouge.
+site_author: Clifford
+site_url: https://claserre9.github.io/python-tutorial/
+repo_url: https://github.com/claserre9/python-tutorial
+repo_name: claserre9/python-tutorial
+edit_uri: edit/main/
+copyright: "Licence MIT — contenu libre de droits"
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Mode clair
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+    - navigation.instant.prefetch
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.highlight
+    - search.suggest
+    - search.share
+
+plugins:
+  - search:
+      lang: fr
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Accueil: index.md
+  - "Niveau 1 — Fondamentaux":
+      - "1. Écosystème Python moderne": cours/01_intro_installation/README.md
+      - "2. Modèle objet & types primitifs": cours/02_fondations/README.md
+      - "3. Flux de contrôle": cours/03_flux_controle/README.md
+      - "4. Fonctions & scope": cours/04_fonctions_modules/README.md
+      - "5. Structures de données": cours/05_structures_donnees/README.md
+      - "6. I/O, exceptions, logging": cours/06_fichiers_exceptions/README.md
+  - "Niveau 2 — Intermédiaire":
+      - "7. POO : bases solides": cours/07_poo_bases/README.md
+      - "8. POO avancée": cours/08_poo_avancee/README.md
+      - "9. Itérateurs, générateurs, fonctionnel": cours/09_concepts_experts/README.md
+      - "10. Typage statique & qualité": cours/10_tests_qualite/README.md
+  - "Niveau 3 — Expert":
+      - "11. Décorateurs & descripteurs": cours/11_decorateurs/README.md
+      - "12. Concurrence & async": cours/12_concurrence/README.md
+      - "13. Métaprogrammation & introspection": cours/13_metaprogrammation/README.md
+      - "14. Performance & internals CPython": cours/14_performance/README.md
+      - "15. Dev web moderne avec FastAPI": cours/15_dev_web/README.md
+      - "16. Packaging & distribution": cours/16_packaging/README.md
+  - "Annexes":
+      - "A. Debug": annexes/A_debug.md
+      - "B. Regex": annexes/B_regex.md
+      - "C. Bases de données": annexes/C_bases_donnees.md
+      - "D. Sécurité": annexes/D_securite.md

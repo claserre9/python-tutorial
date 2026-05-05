@@ -71,7 +71,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
-  - Accueil: index.md
+  - Accueil: README.md
   - "Niveau 1 — Fondamentaux":
       - "1. Écosystème Python moderne": cours/01_intro_installation/README.md
       - "2. Modèle objet & types primitifs": cours/02_fondations/README.md
@@ -91,7 +91,41 @@ nav:
       - "14. Performance & internals CPython": cours/14_performance/README.md
       - "15. Dev web moderne avec FastAPI": cours/15_dev_web/README.md
       - "16. Packaging & distribution": cours/16_packaging/README.md
-  - "Annexes":
+  - Exercices:
+      - "1. Écosystème": exercices/01_intro_installation/README.md
+      - "2. Types primitifs": exercices/02_fondations/README.md
+      - "3. Flux de contrôle": exercices/03_flux_controle/README.md
+      - "4. Fonctions & scope": exercices/04_fonctions_modules/README.md
+      - "5. Structures de données": exercices/05_structures_donnees/README.md
+      - "6. I/O & exceptions": exercices/06_fichiers_exceptions/README.md
+      - "7. POO bases": exercices/07_poo_bases/README.md
+      - "8. POO avancée": exercices/08_poo_avancee/README.md
+      - "9. Concepts experts": exercices/09_concepts_experts/README.md
+      - "10. Tests & qualité": exercices/10_tests_qualite/README.md
+      - "11. Décorateurs": exercices/11_decorateurs/README.md
+      - "12. Concurrence": exercices/12_concurrence/README.md
+      - "13. Métaprogrammation": exercices/13_metaprogrammation/README.md
+      - "14. Performance": exercices/14_performance/README.md
+      - "15. Dev web": exercices/15_dev_web/README.md
+      - "16. Packaging": exercices/16_packaging/README.md
+  - Solutions:
+      - "1. Écosystème": solutions/01_intro_installation/README.md
+      - "2. Types primitifs": solutions/02_fondations/README.md
+      - "3. Flux de contrôle": solutions/03_flux_controle/README.md
+      - "4. Fonctions & scope": solutions/04_fonctions_modules/README.md
+      - "5. Structures de données": solutions/05_structures_donnees/README.md
+      - "6. I/O & exceptions": solutions/06_fichiers_exceptions/README.md
+      - "7. POO bases": solutions/07_poo_bases/README.md
+      - "8. POO avancée": solutions/08_poo_avancee/README.md
+      - "9. Concepts experts": solutions/09_concepts_experts/README.md
+      - "10. Tests & qualité": solutions/10_tests_qualite/README.md
+      - "11. Décorateurs": solutions/11_decorateurs/README.md
+      - "12. Concurrence": solutions/12_concurrence/README.md
+      - "13. Métaprogrammation": solutions/13_metaprogrammation/README.md
+      - "14. Performance": solutions/14_performance/README.md
+      - "15. Dev web": solutions/15_dev_web/README.md
+      - "16. Packaging": solutions/16_packaging/README.md
+  - Annexes:
       - "A. Debug": annexes/A_debug.md
       - "B. Regex": annexes/B_regex.md
       - "C. Bases de données": annexes/C_bases_donnees.md
